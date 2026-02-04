@@ -34,9 +34,9 @@ Screenshot
 https://./screenshot.png
 
 Links
-Solution URL: GitHub Repository
+Solution URL: https://github.com/DiegoRuiz8/blog-preview-card.git
 
-Live Site URL: Live Demo
+Live Site URL: https://diegoruiz8.github.io/blog-preview-card/
 
 My Process
 Built With
@@ -54,40 +54,40 @@ What I Learned
 During this project I reinforced important CSS concepts:
 
 css
-/* Centering with Flexbox */
+/_ Centering with Flexbox _/
 body {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+min-height: 100vh;
 }
 
-/* Box-shadow effects for card styling */
+/_ Box-shadow effects for card styling _/
 .card {
-    border: 1px solid hsl(0, 0%, 7%);
-    box-shadow: 8px 8px 0px hsl(0, 0%, 7%);
-    transition: box-shadow 0.3s ease;
+border: 1px solid hsl(0, 0%, 7%);
+box-shadow: 8px 8px 0px hsl(0, 0%, 7%);
+transition: box-shadow 0.3s ease;
 }
 
 .card:hover {
-    box-shadow: 12px 12px 0px hsl(0, 0%, 7%);
+box-shadow: 12px 12px 0px hsl(0, 0%, 7%);
 }
 
-/* Position fixed for footer */
+/_ Position fixed for footer _/
 .attribution {
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    width: 100%;
+position: fixed;
+bottom: 0;
+left: 0;
+right: 0;
+width: 100%;
 }
 
-/* Responsive image handling */
+/_ Responsive image handling _/
 img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 10px;
+max-width: 100%;
+height: auto;
+border-radius: 10px;
 }
 Continued Development
 Areas I want to continue focusing on in future projects:
