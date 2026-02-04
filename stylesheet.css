@@ -1,0 +1,67 @@
+body{
+    background-color: hsl(47, 88%, 63%);
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    align-items: center;
+    font-family: 'Figtree';
+    flex-direction: column;
+    padding: 20px;
+    gap: 30px;
+}
+.card{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    padding: 15px;
+    height: fit-content;
+    border-radius: 12px;
+    border: 1px solid hsl(0, 0%, 7%);
+    box-shadow: 8px 8px 0px hsl(0, 0%, 7%);;
+}
+.image1{
+    
+    border-radius: 12px;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.div1{
+    font-weight: 800;
+    background-color: hsl(47, 88%, 63%);
+    border-radius: 5px;
+    padding: 5px 12px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    width: fit-content;
+}
+.div2{
+    font-weight: 500;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+.div3{
+    font-weight: 800;
+    font-size: 20px;
+    margin-bottom: 13px;
+}
+.div3:hover{
+    color: hsl(47, 88%, 63%); /* Efecto hover como en el diseño */
+    cursor: pointer;
+}
+.div4{
+    font-weight: 200;
+    color: hsl(0, 0%, 42%);
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+.div5{
+    font-weight: 700;
+    align-items: center;
+    display: flex; 
+}
+.image2{
+    height: 30px;
+    margin-right: 12px;
+}
