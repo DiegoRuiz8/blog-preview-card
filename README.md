@@ -1,8 +1,29 @@
-Frontend Mentor - Blog preview card solution
-This is a solution to the Blog preview card challenge on Frontend Mentor.
+Frontend Mentor - Blog Preview Card Solution
+https://preview.jpg
+
+This is my solution to the Blog Preview Card challenge on Frontend Mentor.
+
+Table of Contents
+Overview
+
+The Challenge
+
+Screenshot
+
+Links
+
+My Process
+
+Built With
+
+What I Learned
+
+Continued Development
+
+Author
 
 Overview
-The challenge
+The Challenge
 Users should be able to:
 
 View the optimal layout depending on their device's screen size
@@ -10,15 +31,15 @@ View the optimal layout depending on their device's screen size
 See hover states for interactive elements
 
 Screenshot
-![](./screenshot.jpg)
+https://./screenshot.png
 
 Links
 Solution URL: GitHub Repository
 
 Live Site URL: Live Demo
 
-My process
-Built with
+My Process
+Built With
 Semantic HTML5 markup
 
 CSS custom properties
@@ -27,49 +48,57 @@ Flexbox
 
 Mobile-first workflow
 
-Google Fonts
+Google Fonts (Figtree)
 
-What I learned
-Key CSS techniques used in this project:
+What I Learned
+During this project I reinforced important CSS concepts:
 
 css
-/_ Centering with Flexbox _/
+/* Centering with Flexbox */
 body {
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
 }
 
-/_ Card styling with shadow effect _/
+/* Box-shadow effects for card styling */
 .card {
-border: 1px solid hsl(0, 0%, 7%);
-box-shadow: 8px 8px 0px hsl(0, 0%, 7%);
-transition: box-shadow 0.3s ease;
+    border: 1px solid hsl(0, 0%, 7%);
+    box-shadow: 8px 8px 0px hsl(0, 0%, 7%);
+    transition: box-shadow 0.3s ease;
 }
 
 .card:hover {
-box-shadow: 12px 12px 0px hsl(0, 0%, 7%);
+    box-shadow: 12px 12px 0px hsl(0, 0%, 7%);
 }
 
-/_ Learning tag styling _/
-.learning-tag {
-background-color: hsl(47, 88%, 63%);
-padding: 4px 12px;
-border-radius: 4px;
-display: inline-block;
+/* Position fixed for footer */
+.attribution {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
 }
-Continued development
-I want to focus on:
 
-CSS Grid for complex layouts
+/* Responsive image handling */
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+Continued Development
+Areas I want to continue focusing on in future projects:
 
-Advanced animations
+CSS Grid for more complex layouts
+
+Advanced CSS animations and transitions
 
 Accessibility improvements
 
-Performance optimization
+Performance optimization techniques
 
 Author
 Frontend Mentor - @DiegoRuiz8
